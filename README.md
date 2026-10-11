@@ -1,10 +1,10 @@
-# Kitap Fiyat Takip & Analiz Botu (Web Scraper & Analyzer)
+# 📚 Kitap Fiyat Takip & Analiz Botu
 
 Bu proje; popüler web kazıma test platformu olan [Books to Scrape](https://books.toscrape.com) üzerindeki kitap verilerini dinamik olarak toplayan, Nesne Yönelimli Programlama (OOP) prensipleriyle modelleyen, **NumPy** kütüphanesiyle istatistiksel fiyat analizleri gerçekleştiren ve sonuçları yapılandırılmış formatlarda dışa aktaran kapsamlı bir Python otomasyon aracıdır.
 
 ---
 
-## Projenin Amacı ve Özellikleri
+## 🎯 Projenin Amacı ve Özellikleri
 
 - **Dinamik Web Kazıma (Pagination & Generator):** Python'ın `yield` tabanlı üreteç (generator) yapısını kullanarak sayfalar arası gezinir ve ağ kaynaklarını tüketmeden bellek dostu bir biçimde URL üretir.
 - **Hata Yönetimi (Fault Tolerance):** `requests` isteklerinde zaman aşımı (`timeout`) ve ağ bağlantı hatalarına (`RequestException`) karşı dayanıklıdır. Olası bir sayfa kopmasında program çökmeden toplanan verilerle süreci tamamlar.
@@ -17,8 +17,7 @@ Bu proje; popüler web kazıma test platformu olan [Books to Scrape](https://boo
   - Yönetici/Kullanıcı özeti ve ucuz kitap listesi için: `report.txt`
 
 ---
-
-## Proje Mimarisi ve Kod Yapısı
+## 🏛️ Proje Mimarisi ve Kod Yapısı
 
 | Fonksiyon / Sınıf | Görevi |
 | :--- | :--- |
@@ -33,3 +32,11 @@ Bu proje; popüler web kazıma test platformu olan [Books to Scrape](https://boo
 | `save_report(...)` | İstatistikleri ve ucuz kitapları biçimlendirilmiş bir metin raporu olarak kaydeden fonksiyon. |
 
 ---
+---
+
+## 💻 Kurulum ve Çalıştırma
+
+1. Repoyu klonlayın:
+   ```bash
+   git clone [https://github.com/atesnrbuse/kitap-fiyat-botu.git](https://github.com/atesnrbuse/kitap-fiyat-botu.git)
+   cd kitap-fiyat-botu
