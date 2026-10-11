@@ -19,7 +19,7 @@ class Book:
                     }
 
     def __str__(self):
-        return f"{self.title} - £{self.price} -{self.stock}"
+        return f"{self.title} - £{self.price} - {self.stock}"
 
 def get_page_content(hedef_url):
     try:
